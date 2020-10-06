@@ -2,9 +2,9 @@
 import os
 
 #Create index file and dict file for the reference data file 
-os.chdir('/home/raymond/Desktop/mouse_genome_mm10')
-os.system('samtools faidx /home/raymond/Desktop/mouse_genome_mm10/mm10.fa')
-os.system('samtools dict /home/raymond/Desktop/mouse_genome_mm10/mm10.fa -o mm10.fa.dict')
+os.chdir('/home/raymond/Desktop/mouse_genome_mm10') #change me
+os.system('samtools faidx /home/raymond/Desktop/mouse_genome_mm10/mm10.fa') #change me
+os.system('samtools dict /home/raymond/Desktop/mouse_genome_mm10/mm10.fa -o mm10.fa.dict') #change me
 
 
 #Create index file for the MC38 mouse tumor bam file
