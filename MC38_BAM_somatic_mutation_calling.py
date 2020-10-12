@@ -10,7 +10,7 @@ os.system('samtools dict /home/raymond/Desktop/mouse_genome_mm10/mm10.fa -o mm10
 #Create index file for the MC38 mouse tumor bam file
 os.chdir('/home/raymond/Desktop/sambamdata/MC38_chromosome')
 
-for i in range(1, 20):
+for i in range(1, 20):#change me
     file_bam  = 'MC38_chr{}.bam'.format(i)
     os.system("samtools index '/home/raymond/Desktop/sambamdata/MC38_chromosome/%s'" % (file_bam))
 
